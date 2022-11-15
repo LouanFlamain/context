@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { colorContext } from "../context/context";
 
 export default function Main() {
-  const { setColor, color } = useContext(colorContext);
+  const { color } = useContext(colorContext);
   return (
     <div className="card w-30 is-center">
       <header className="card-header">
